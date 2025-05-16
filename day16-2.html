@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            counter-reset: name;
+        }
+        h1::after{
+            counter-increment: name;
+            content: " " counter(name);
+        }
+    </style>
+</head>
+<body>
+   <input type="text" name="name">
+   <h1>Mike</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing eh1t. Eh1gendi odit itaque ab harum labore minima iste rerum? Enim ah1as atque distinctio amet, ipsa ducimus quod vero earum odit, consequatur perspiciatis.</p>
+        <h1>one</h1>
+        <h1>two</h1>
+        <h1>three</h1>
+        <h1>four</h1>
+        <h1>five</h1>
+</body>
+</html>
