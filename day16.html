@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:focus {
+            background-color: yellow;
+            color: red;
+        }
+        h1::before{
+            content: " hello ";
+        }
+        h1::after{
+            content: " how are you?";
+        }
+        p::first-letter{
+            font-size: 50px;
+            color: red;
+        }
+        p::selection{
+            background-color: blue;
+            color: white;
+        }
+        ol > li::marker{
+            color: red;
+            font-size: 30px;
+        }
+
+    
+    </style>
+</head>
+<body>
+   <input type="text" name="name">
+   <h1>Mike</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odit itaque ab harum labore minima iste rerum? Enim alias atque distinctio amet, ipsa ducimus quod vero earum odit, consequatur perspiciatis.</p>
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+    </ol>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+        <li>five</li>
+    </ul>
+</body>
+</html>
