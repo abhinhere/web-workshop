@@ -7,18 +7,20 @@
     <style>
         div{
             background-color: blueviolet;
-            width: 100px;
-            height: 100px;
-
-            /* transform: scaleX(50deg); */
-            transform: matrix(scaleX(78deg), scaleY(), skewX(), skewY(), translateX(), translateY());
-
+            width: 300px;
+            height: 300px;
+            transition: width 4s;
+            transition-timing-function: ease-in-out;
+        }
+        div:hover{
+            width: 600px;
+            height: 600px;
         }
     </style>
 </head>
 <body>
     <div>
-        
+
     </div>
 </body>
 </html>
