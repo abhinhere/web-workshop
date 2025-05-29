@@ -26,4 +26,18 @@ nav ul li a {
 }
 nav ul li a:hover {
   background-color: #0000cc;
+}
+
+button {
+  background-color: rgb(173, 20, 166);
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  border-radius: 25px;
+  align-items: center;
+}
+button:hover {
+  background-color: #7f0f7a;
 }/*# sourceMappingURL=style.css.map */
