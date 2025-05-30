@@ -1,0 +1,53 @@
+body {
+  background-color: red;
+}
+
+#container {
+  background-color: blue;
+  width: 300px;
+  height: 200px;
+}
+
+nav {
+  background-color: blue;
+}
+nav ul {
+  list-style: none;
+  padding: 3px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+}
+nav ul li a:hover {
+  background-color: #0000cc;
+}
+
+#bu0 {
+  background-color: white;
+  padding: 10px 80px;
+  border: 0;
+  color: rgb(0, 0, 0);
+  font-size: 80px;
+  border-radius: 35px;
+}
+#bu0:hover {
+  background-color: #7f0f7a;
+}
+
+#bu1 {
+  background-color: red;
+  padding: 10px 80px;
+  border: 0;
+  color: rgb(0, 0, 0);
+  font-size: 80px;
+  border-radius: 35px;
+}
+#bu1:hover {
+  background-color: #7f0f7a;
+}/*# sourceMappingURL=style.css.map */

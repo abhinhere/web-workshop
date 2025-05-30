@@ -1,0 +1,47 @@
+@mixin style1($bcolor:white, $borderWidth: 2px, $b_color:black){
+  background-color: $bcolor;
+  padding: 10px 80px;
+  border: 0;
+  color :rgb(0, 0, 0);
+  font-size: 80px;
+  border-radius: 35px;
+  &:hover{
+      background-color: darken(rgb(173, 20, 166), 10%);
+    }
+}
+$color1 :  red;
+$color2 :  blue;
+body{
+  background-color: $color1;
+}
+#container{
+  background-color: $color2;
+  width: 300px;
+  height: 200px;
+}
+nav{
+  background-color: $color2;
+  ul{
+    list-style: none;
+    padding: 3px;
+    li{
+      display: inline-block;
+      a{
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+        &:hover{
+          background-color: darken($color2, 10%);
+        }
+      }
+    }
+    }
+  }
+
+  #bu0{
+    @include style1();
+  }
+  #bu1{
+    @include style1($bcolor: red, $borderWidth: 5px);
+  }

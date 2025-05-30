@@ -1,15 +1,11 @@
-@mixin style1($bcolor:white, $borderWidth: 2px, $b_color:black){
-  background-color: $bcolor;
-  padding: 10px 80px;
-  border: 0;
-  color :rgb(0, 0, 0);
-  font-size: 80px;
-  border-radius: 35px;
-  &:hover{
-      background-color: darken(rgb(173, 20, 166), 10%);
-    }
+@mixin style1($font-name, $path, $weight:400, $style:noraml){
+  @font-face {
+    font-family: $font-name;
+    src: url("./Poppins-Black.ttf");
+    font-weight: $weight;
+    font-style: $style;
+  }
 }
-
 $color1 :  red;
 $color2 :  blue;
 body{
@@ -45,4 +41,17 @@ nav{
   }
   #bu1{
     @include style1($bcolor: red, $borderWidth: 5px);
+  }
+
+
+  p{
+    font-size: 80px;
+    font-family: abc;
+  }
+
+  @font-face {
+    font-family: abc;
+    src: url("./Poppins-Black.ttf");
+    font-weight: 400;
+    font-style: normal;
   }
