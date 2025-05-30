@@ -28,16 +28,26 @@ nav ul li a:hover {
   background-color: #0000cc;
 }
 
-button {
-  background-color: rgb(173, 20, 166);
-  padding: 10px 25px;
-  font-size: 20px;
-  font-weight: bold;
-  border: none;
-  color: white;
-  border-radius: 25px;
-  align-items: center;
+#bu0 {
+  background-color: white;
+  padding: 10px 80px;
+  border: 0;
+  color: rgb(0, 0, 0);
+  font-size: 80px;
+  border-radius: 35px;
 }
-button:hover {
+#bu0:hover {
+  background-color: #7f0f7a;
+}
+
+#bu1 {
+  background-color: red;
+  padding: 10px 80px;
+  border: 0;
+  color: rgb(0, 0, 0);
+  font-size: 80px;
+  border-radius: 35px;
+}
+#bu1:hover {
   background-color: #7f0f7a;
 }/*# sourceMappingURL=style.css.map */
